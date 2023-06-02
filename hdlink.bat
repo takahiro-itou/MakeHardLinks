@@ -8,4 +8,6 @@ EXIT /B
 
 :create_link
 @ECHO "Create link to %1"
+@ECHO ON
 MKLINK /H "%~nx1" %1
+@ECHO OFF
